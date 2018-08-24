@@ -54,3 +54,17 @@ C:\Users\Federico\Downloads\ATM\ATM\ATM.Service\obj\Debug\netcoreapp2.0\ATM.Serv
 C:\Users\Federico\Downloads\ATM\ATM\ATM.Service\obj\Debug\netcoreapp2.0\ATM.Service.csproj.CopyComplete
 C:\Users\Federico\Downloads\ATM\ATM\ATM.Service\obj\Debug\netcoreapp2.0\ATM.Service.dll
 C:\Users\Federico\Downloads\ATM\ATM\ATM.Service\obj\Debug\netcoreapp2.0\ATM.Service.pdb
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\bin\Debug\netcoreapp2.0\ATM.Service.deps.json
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\bin\Debug\netcoreapp2.0\ATM.Service.dll
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\bin\Debug\netcoreapp2.0\ATM.Service.pdb
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\bin\Debug\netcoreapp2.0\ATM.Data.dll
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\bin\Debug\netcoreapp2.0\ATM.Model.dll
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\bin\Debug\netcoreapp2.0\ATM.Data.pdb
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\bin\Debug\netcoreapp2.0\ATM.Model.pdb
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\obj\Debug\netcoreapp2.0\ATM.Service.csprojAssemblyReference.cache
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\obj\Debug\netcoreapp2.0\ATM.Service.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\obj\Debug\netcoreapp2.0\ATM.Service.AssemblyInfoInputs.cache
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\obj\Debug\netcoreapp2.0\ATM.Service.AssemblyInfo.cs
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\obj\Debug\netcoreapp2.0\ATM.Service.csproj.CopyComplete
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\obj\Debug\netcoreapp2.0\ATM.Service.dll
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Service\obj\Debug\netcoreapp2.0\ATM.Service.pdb

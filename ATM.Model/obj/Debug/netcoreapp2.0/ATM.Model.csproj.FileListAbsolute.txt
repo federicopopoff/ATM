@@ -33,3 +33,12 @@ C:\Users\Federico\Downloads\ATM\ATM\ATM.Model\obj\Debug\netcoreapp2.0\ATM.Model.
 C:\Users\Federico\Downloads\ATM\ATM\ATM.Model\obj\Debug\netcoreapp2.0\ATM.Model.AssemblyInfo.cs
 C:\Users\Federico\Downloads\ATM\ATM\ATM.Model\obj\Debug\netcoreapp2.0\ATM.Model.dll
 C:\Users\Federico\Downloads\ATM\ATM\ATM.Model\obj\Debug\netcoreapp2.0\ATM.Model.pdb
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Model\bin\Debug\netcoreapp2.0\ATM.Model.deps.json
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Model\bin\Debug\netcoreapp2.0\ATM.Model.dll
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Model\bin\Debug\netcoreapp2.0\ATM.Model.pdb
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Model\obj\Debug\netcoreapp2.0\ATM.Model.csprojAssemblyReference.cache
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Model\obj\Debug\netcoreapp2.0\ATM.Model.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Model\obj\Debug\netcoreapp2.0\ATM.Model.AssemblyInfoInputs.cache
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Model\obj\Debug\netcoreapp2.0\ATM.Model.AssemblyInfo.cs
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Model\obj\Debug\netcoreapp2.0\ATM.Model.dll
+C:\Users\Federico\Desktop\ATM\ATM\ATM.Model\obj\Debug\netcoreapp2.0\ATM.Model.pdb

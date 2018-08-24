@@ -2989,11 +2989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Service\\ATM.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Service\\ATM.Service.csproj",
       "projectName": "ATM.Service",
-      "projectPath": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Service\\ATM.Service.csproj",
+      "projectPath": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Service\\ATM.Service.csproj",
       "packagesPath": "C:\\Users\\Federico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Service\\obj\\",
+      "outputPath": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3012,11 +3012,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Data\\ATM.Data.csproj": {
-              "projectPath": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Data\\ATM.Data.csproj"
+            "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Data\\ATM.Data.csproj": {
+              "projectPath": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Data\\ATM.Data.csproj"
             },
-            "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Model\\ATM.Model.csproj": {
-              "projectPath": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Model\\ATM.Model.csproj"
+            "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Model\\ATM.Model.csproj": {
+              "projectPath": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Model\\ATM.Model.csproj"
             }
           }
         }

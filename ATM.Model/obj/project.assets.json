@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Model\\ATM.Model.csproj",
+      "projectUniqueName": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Model\\ATM.Model.csproj",
       "projectName": "ATM.Model",
-      "projectPath": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Model\\ATM.Model.csproj",
+      "projectPath": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Model\\ATM.Model.csproj",
       "packagesPath": "C:\\Users\\Federico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Model\\obj\\",
+      "outputPath": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

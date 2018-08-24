@@ -13309,11 +13309,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Web\\ATM.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Web\\ATM.Web.csproj",
       "projectName": "ATM.Web",
-      "projectPath": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Web\\ATM.Web.csproj",
+      "projectPath": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Web\\ATM.Web.csproj",
       "packagesPath": "C:\\Users\\Federico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Web\\obj\\",
+      "outputPath": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13332,14 +13332,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Data\\ATM.Data.csproj": {
-              "projectPath": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Data\\ATM.Data.csproj"
+            "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Data\\ATM.Data.csproj": {
+              "projectPath": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Data\\ATM.Data.csproj"
             },
-            "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Model\\ATM.Model.csproj": {
-              "projectPath": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Model\\ATM.Model.csproj"
+            "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Model\\ATM.Model.csproj": {
+              "projectPath": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Model\\ATM.Model.csproj"
             },
-            "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Service\\ATM.Service.csproj": {
-              "projectPath": "C:\\Users\\Federico\\Downloads\\ATM\\ATM\\ATM.Service\\ATM.Service.csproj"
+            "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Service\\ATM.Service.csproj": {
+              "projectPath": "C:\\Users\\Federico\\Desktop\\ATM\\ATM\\ATM.Service\\ATM.Service.csproj"
             }
           }
         }
