@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.1" />
+    <PackageReference Include="Ninject" Version="3.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ATM.Data\ATM.Data.csproj" />
+    <ProjectReference Include="..\ATM.Model\ATM.Model.csproj" />
+    <ProjectReference Include="..\ATM.Service\ATM.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\ATM\Home.cshtml" />
+    <Content Remove="Views\ATM\_Balance.cshtml" />
+    <Content Remove="Views\ATM\_WithDrawal.cshtml" />
+  </ItemGroup>
+</Project>

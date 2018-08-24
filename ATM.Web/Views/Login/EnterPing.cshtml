@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (ViewBag.PinFailed)
+{
+    <h2>The Pin you are entered is incorrect</h2>
+}
+
+<h3>Insert the PIN for the Credit Card: @ViewBag.CreditCardNumber</h3>
+
+<form method="post" id="CardNumber" action='@Url.Action("EnterPingPost")'>
+    <fieldset>Enter Pin</fieldset>
+    <div id="presentationCreditCard">
+        <input type="hidden" value='@ViewBag.CreditCardNumber' name="creditCardNumber" />
+        <label for="txt_cardNumber">PIN</label>
+        <input type="password" id="txt_pin" name="creditCardPin" maxlength="4">
+        <input type="reset" id="btnClearPin" value="Clear" class="btn btn-success" />
+        <input type="submit" id="btnSubmitPin" value="Ok" class="btn btn-default" />
+        <input type="button" value="Exit" class="btn btn-default" onclick="location.href='@Url.Action("Exit")'" />
+
+    </div>
+</form>
+
+

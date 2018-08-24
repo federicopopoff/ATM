@@ -1,0 +1,16 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Welcome To ATM DataArt</h2>
+
+<form method="post" id="CardNumber" action='@Url.Action("Index")'>
+    <fieldset>Enter Credit Card Number</fieldset>
+    <div id="presentationCreditCard">
+        <label for="txt_CardNumber">Number</label>
+        <input type="text" id="cardNumber" name="creditCardNumber" maxlength="19" placeholder="0000-0000-0000-0000">
+        <input type="reset" id="btnClearCreditCard" value="Clear"  class="btn btn-success" />
+        <input type="submit" id="btnSubmitCreditCard" value="Ok" class="btn btn-default"/>
+    </div>
+</form>

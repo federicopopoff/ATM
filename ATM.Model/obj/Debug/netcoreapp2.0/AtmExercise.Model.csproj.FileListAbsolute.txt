@@ -1,0 +1,9 @@
+C:\Users\Federico\Downloads\AtmExercise-master\AtmExercise.Model\bin\Debug\netcoreapp2.0\AtmExercise.Model.deps.json
+C:\Users\Federico\Downloads\AtmExercise-master\AtmExercise.Model\bin\Debug\netcoreapp2.0\AtmExercise.Model.dll
+C:\Users\Federico\Downloads\AtmExercise-master\AtmExercise.Model\bin\Debug\netcoreapp2.0\AtmExercise.Model.pdb
+C:\Users\Federico\Downloads\AtmExercise-master\AtmExercise.Model\obj\Debug\netcoreapp2.0\AtmExercise.Model.csprojAssemblyReference.cache
+C:\Users\Federico\Downloads\AtmExercise-master\AtmExercise.Model\obj\Debug\netcoreapp2.0\AtmExercise.Model.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Downloads\AtmExercise-master\AtmExercise.Model\obj\Debug\netcoreapp2.0\AtmExercise.Model.AssemblyInfoInputs.cache
+C:\Users\Federico\Downloads\AtmExercise-master\AtmExercise.Model\obj\Debug\netcoreapp2.0\AtmExercise.Model.AssemblyInfo.cs
+C:\Users\Federico\Downloads\AtmExercise-master\AtmExercise.Model\obj\Debug\netcoreapp2.0\AtmExercise.Model.dll
+C:\Users\Federico\Downloads\AtmExercise-master\AtmExercise.Model\obj\Debug\netcoreapp2.0\AtmExercise.Model.pdb
