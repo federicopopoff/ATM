@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ATM.Model.Operation>
+<div class="tab-content">
+    <h4> Operation report</h4>
+    <hr />
+    <a href="javascript:void(0);" id="backLink">Back</a>
+
+    <script type="text/javascript">
+        $(document).on('click', '#backLink', function () {
+            history.go(-1);
+        });
+    </script>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Code)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Time)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Detail)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Code)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Time)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Detail)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div>
+    <input type="button" value="Exit" class="btn btn-default" onclick="location.href='@Url.Action("Exit")'" />
+</div>

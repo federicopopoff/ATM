@@ -1,0 +1,18 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="tab-content">
+    <h2>WithDrawal</h2>
+    <form method="post" id="WithDrawal" action='@Url.Action("WithDrawal")'>
+        <fieldset>Enter the amount</fieldset>
+        <div id="presentationCreditCard">
+            <input type="hidden" name="creditCardId" value='@ViewBag.CreditCardId' />
+            <label for="txt_amount">Number</label>
+            <input type="number" id="txt_amount" name="amount">
+            <input type="reset" id="btnClearCreditCard" value="Clear" class="btn btn-success" />
+            <input type="submit" id="btnSubmitCreditCard" value="Ok" class="btn btn-default" />
+            <input type="button" value="Exit" class="btn btn-default" onclick="location.href='@Url.Action("Exit")'" />
+
+        </div>
+    </form>
+</div>
