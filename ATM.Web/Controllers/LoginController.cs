@@ -22,17 +22,19 @@ namespace ATM.Web.Controllers
 
         [HttpPost]
         public ActionResult Index(string creditCardNumber)
-        {    
-            if(creditCardNumber == null)
+        {
+            if (creditCardNumber == null)
                 return RedirectToActionPermanent("Error", new { reason = "Please enter a valid number." });
+
             try
             {
                 var creditCardNumberSanitized = creditCardNumber.Replace("-", string.Empty);
-                return RedirectToActionPermanent("EnterPing", new { creditCardNumberSanitized });
+                var creditCard = this._ccService.Exists(creditCardNumberSanitized);
+                return RedirectToActionPermanent("EnterPing", new { creditCardNumber });
             }
             catch (ATMException ex)
             {
-                return RedirectToActionPermanent("Error", new { reason = ex.Message });                
+                return RedirectToActionPermanent("Error", new { reason = ex.Message });
             }
         }
 
@@ -43,6 +45,25 @@ namespace ATM.Web.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult EnterPingPost(string creditCardNumber, string creditCardPin)
+        {
+            try
+            {
+                var creditCardNumberSanitized = creditCardNumber.Replace("-", string.Empty);
+                var creditCard = this._ccService.GetByParameters(new string[] { creditCardNumberSanitized, creditCardPin });
+                return RedirectToActionPermanent("Home", "Atm", new { creditCardId = creditCard.Id });
+            }
+            catch (ATMException)
+            {
+                return RedirectToActionPermanent("EnterPing", new { creditCardNumber, pinFailed = true });
+            }
+            catch (ATMCardBlockedException ex)
+            {
+                return RedirectToActionPermanent("Error", new { reason = ex.Message });
+            }
+        }
+
         public ActionResult Home()
         {
             return View();
@@ -50,7 +71,7 @@ namespace ATM.Web.Controllers
 
         public ActionResult Exit()
         {
-            return RedirectToAction("Index","Login");
+            return RedirectToAction("Index", "Login");
         }
 
         public ActionResult Error(string reason)
