@@ -7,8 +7,4 @@
   <ItemGroup>
     <Folder Include="DTO\" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Compile Remove="Exception\ATMCardBlockedException.cs" />
-  </ItemGroup>
 </Project>

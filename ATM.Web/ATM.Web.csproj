@@ -21,8 +21,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="Views\ATM\Home.cshtml" />
-    <Content Remove="Views\ATM\_Balance.cshtml" />
-    <Content Remove="Views\ATM\_WithDrawal.cshtml" />
+    <Content Update="Views\ATM\_Balance.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\ATM\_WithDrawal.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\ATM\Home.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
   </ItemGroup>
 </Project>
