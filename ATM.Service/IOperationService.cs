@@ -1,11 +1,13 @@
-﻿using System;
+﻿using ATM.Model;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ATM.Service
 {
-    public interface IService<T>
+    public interface IOperationService : IService<Operation>
     {
-        T GetById(int id);
+        void InsertWithDrawal(int creditCardId, int amount);
+        void InsertBalance(int creditCardId);
     }
 }
